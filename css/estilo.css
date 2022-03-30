@@ -13,9 +13,10 @@ body{
 
 /*  Estilo do título da página */
 h2{
-    background-color: #616161;
+    background-color: #8C0712;
     color: #FFF;
     padding: 10px;
+    text-align: center;
 }
 /* Final do estilo do título da página  */
 
@@ -33,5 +34,31 @@ th,td{
 table, th, td{
     border: 1px solid #000;
     text-align: left;
+}
+
+/* Muda a cor dos títulos da tabela */
+th{
+    background-color: #3e5902;
+    color: #FFF;
+    height: 60px;
+}
+
+/* Tabela zebrada */
+tr:nth-child(even){
+    background-color: #3e590236;
+}
+
+tr:nth-child(odd){
+    background-color: #3d59028e;
+}
+
+/* Muda a cor das linhas ao passar o mouse */
+tr:hover{
+    background-color: #3d5902c7;
+}
+
+caption{
+    caption-side: bottom;
+    text-align: right ;
 }
 /* Final do estilo da tabela */
